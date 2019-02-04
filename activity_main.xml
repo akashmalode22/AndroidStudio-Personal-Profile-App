@@ -19,13 +19,13 @@
 
 
             <ImageView
-                android:layout_marginTop="35dp"
+                android:layout_marginTop="25dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_width="300dp"
                 android:layout_height="150dp"
                 android:src="@mipmap/akash_round"/>
             <TextView
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
                 android:textStyle="bold"
                 android:textSize="25sp"/>
             <TextView
-                android:layout_marginTop="-5dp"
+                android:layout_marginTop="-10dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -42,6 +42,16 @@
                 android:textColor="#fff"
                 android:textStyle="bold"
                 android:textSize="15sp"/>
+
+            <Button
+                android:id="@+id/resumeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/buttonstyle"
+                android:text="Resume"
+                android:textColor="#FFFF" />
 
         </LinearLayout>
 
@@ -63,9 +73,11 @@
                     android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ucdImage"
                         android:layout_width="100dp"
                         android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
+                        android:clickable="true"
                         android:src="@mipmap/ucdavis" />
                     <TextView
                         android:layout_width="wrap_content"
@@ -137,33 +149,32 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="172dp"
         android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="20dp"
             android:layout_height="100dp"
-            android:gravity="center"
+            android:layout_marginLeft="45dp"
             android:layout_marginTop="60dp"
-            android:layout_marginLeft="45dp">
+            android:gravity="center">
+
             <TextView
                 android:layout_width="100dp"
-                android:layout_height="200dp"
-                android:text="Tap the Icons!"
-                android:textStyle="bold"
-                android:textColor="@color/endgreen"
-                android:rotation="-90"
+                android:layout_height="300dp"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:textSize="12dp"/>
+                android:rotation="-90"
+                android:text="Tap the Icons!"
+                android:textColor="@color/endgreen"
+                android:textSize="12dp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-
-            android:layout_marginTop="-50dp"
             android:orientation="vertical">
 
             <LinearLayout
@@ -174,8 +185,8 @@
                     android:id="@+id/emailPicture"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:clickable="true"
                     android:layout_marginLeft="5dp"
+                    android:clickable="true"
                     android:src="@drawable/ic_email_black_24dp" />
 
                 <TextView
@@ -197,8 +208,8 @@
                     android:id="@+id/githubPicture"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:clickable="true"
                     android:layout_marginLeft="5dp"
+                    android:clickable="true"
                     android:src="@drawable/ic_githubsvg" />
 
                 <TextView
@@ -220,8 +231,8 @@
                     android:id="@+id/linkedinPicture"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:clickable="true"
                     android:layout_marginLeft="5dp"
+                    android:clickable="true"
                     android:src="@drawable/ic_linkedin_logo" />
 
                 <TextView
@@ -237,11 +248,25 @@
             </LinearLayout>
 
         </LinearLayout>
+
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
 
+        <Button
+            android:id="@+id/clubsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="125dp"
+            android:background="@drawable/buttonstyle"
+            android:gravity="center_horizontal"
+            android:text="More About Me"
+            android:textColor="#FFF"/>
 
-
+    </LinearLayout>
 
 </LinearLayout>
 
