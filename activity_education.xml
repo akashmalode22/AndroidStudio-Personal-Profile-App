@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".educationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/startgreen">
+        
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_school_black_24dp"/>
+        
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="University of California, Davis"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="@color/startgreen"
+                android:textColor="#FFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="10sp"
+                android:text="Year: Sophomore\n\n
+Expected Graduation: June 2021\n\n
+Major: Computer Science and Engineering\n\n
+Current GPA: 3.47 / 4.0\n\n
+Dean's List in Fall 2017\n\n
+E.A Gordon Scholarship Receiver\n\n
+Related Course Work:\n
+\t\t\tECS20: Discrete Mathematics for Computer Science\n\n
+\t\t\tECS30: Intro to Programming and Problem Solving (C)\n\n
+\t\t\tECS40: Object Oriented Programming (C++)\n\n
+\t\t\tECS50: Machine Dependent Programming (Assembly x86)\n\n
+\t\t\tECS60: Algorithm Analysis and Data Structures (C++)\n\n
+\t\t\tCHEM2A: General Chemistry\n\n
+\t\t\tPHY9A/9B: Classical Physics\n\n
+
+        "
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Own English High School, Sharjah UAE"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="@color/startgreen"
+                android:textColor="#FFF"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="10sp"
+                android:text="Graduation Year: 2017\n\n
+Graduation Percentage: 93% / 100%\n\n
+Field of Study:\n CBSE Science (Physics, Chemistry, Mathematics)\nwith Computer Science (Python and SQL)\n\n
+CS Curriculum: Intro to programming and Object-Oriented Programming in Python\n\n
+SQL Basics\n\n"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

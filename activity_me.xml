@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".educationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/startgreen">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_face_black_24dp"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tAbout Myself"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="@color/startgreen"
+                android:textColor="#FFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:text="I am Akash Malode. Although I am Indian by nationality, I was born and brought up in Sharjah, UAE."
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:src="@drawable/viewfromhouse"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The view from my house in Sharjah!"
+                android:textSize="15sp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:layout_marginLeft="10sp"
+                android:textStyle="bold"
+                android:layout_marginRight="10sp"
+                android:text="Since I attended an English high school, I am most fluent in English. Hindi and Marathi are languages I can speak as well."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tHow I got into coding"
+                android:layout_marginTop="20sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="@color/startgreen"
+                android:textColor="#FFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="15sp"
+                android:layout_marginRight="10sp"
+                android:text="Moving from Grade 10 to Grade 11, I had to make a choice between Biology and Computer Science. Since I wasn't very interested in Biology, Computer Science it was!
+                \n\nI was very confused when my teacher first introduced the concept of programming, but then quickly realized that it is used everywhere. I have been into coding ever since.
+\n\n I have learned most languages through learning different softwares. Android Studio taught me Java and Unity Engine taught me C#."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tWhat I want to get into"
+                android:layout_marginTop="20sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="@color/startgreen"
+                android:textColor="#FFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginBottom="20sp"
+                android:text="As of now, I am open to any field related to software technology. \n\nI am currently bouncing between Game Development and App Development. \n\n
+I have made a few simple games in Unity2D, and have made small apps using Android Studio. By building this verp app, I want to showcase my capabilities in UI design, programming, and overall app development skills. I plan to further explore iOS development, and am constantly learning more everyday.
+\n\nI consider myself a beginner in Android App Development (you may have noticed), but I'm trying to improve my UI design skills by trying to mimic other full-fledged app's designs. Various tutorials on YouTube will help me get there.
+\n\nI plan to explore more fields to get into- possibly looking towards Artificial Intelligence and/or Augmented Reality. I would love to combine Game Development with Augmented Reality, and make Android games just to get a feel of each field."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

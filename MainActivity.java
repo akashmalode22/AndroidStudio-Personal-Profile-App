@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         clubsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goToClubsActivity = new Intent(getApplicationContext(), clubsActivity.class);
+                Intent goToClubsActivity = new Intent(getApplicationContext(), moreaboutmeActicity.class);
                 startActivity(goToClubsActivity);
             }
         });
