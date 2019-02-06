@@ -14,6 +14,7 @@ public class moreaboutmeActicity extends AppCompatActivity {
     CardView clubsButton;
     CardView skillsButton;
     CardView firstappButton;
+    CardView creditsButton;
 
 
     @Override
@@ -27,6 +28,7 @@ public class moreaboutmeActicity extends AppCompatActivity {
         clubsButton = (CardView) findViewById(R.id.clubsButton);
         skillsButton = (CardView) findViewById(R.id.skillsButton);
         firstappButton = (CardView) findViewById(R.id.firstappButton);
+        creditsButton = (CardView) findViewById(R.id.credits);
 
         meButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,6 +67,22 @@ public class moreaboutmeActicity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent moveToClubsIntent = new Intent(getApplicationContext(), clubsActivity.class);
                 startActivity(moveToClubsIntent);
+            }
+        });
+
+        projectsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent moveToProjectsIntent = new Intent(getApplicationContext(), projectsActivity.class);
+                startActivity(moveToProjectsIntent);
+            }
+        });
+
+        creditsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent moveToCreditsIntent = new Intent(getApplicationContext(), creditsActivity.class);
+                startActivity(moveToCreditsIntent);
             }
         });
 

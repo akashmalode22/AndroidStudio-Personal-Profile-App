@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".creditsActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:text="Github Logo\nhttps://en.wikipedia.org/wiki/File:Octicons-mark-github.svg"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="5sp"
+        android:text="LinkedIn Logo\nhttps://iconmonstr.com/linkedin-3-svg/"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="5sp"
+        android:text="UC Davis Logo\nhttps://www.ucdavis.edu/"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="5sp"
+        android:text="Unity Logo\nhttps://commons.wikimedia.org/wiki/File:Unity_Technologies_logo.svg"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="5sp"
+        android:text="Space and Satellite Systems Logo\nhttps://www.facebook.com/SpaceAndSatelliteSystems/"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="5sp"
+        android:text="GameDev Logo\nhttps://localwiki.org/davis/Game_Dev_%26_Arts_Club/_files/GDDlogo-bestres.png/_info/"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="5sp"
+        android:text="Davis Computer Science Club Logo\nhttps://www.facebook.com/daviscsclub/"/>
+
+
+
+</LinearLayout>
